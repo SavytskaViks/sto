@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STO</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <a href="./index.html" class="header__logo">
+            <img src="./images/logo.png" alt="EnergoTruck logo" />
+          </a>
+
+          <nav class="header__nav" aria-label="Main navigation">
+            <ul class="header__menu">
+              <li><a class="menu-item" href="#services">Послуги</a></li>
+              <li><a class="menu-item" href="#about">Про нас</a></li>
+              <li><a class="menu-item" href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+
+          <button class="button modal-btn-open" type="button">Зв'язатися</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">
+              <span class="hero-accent">EnergoTruck</span> — Сервіс та ремонт вантажівок у
+              Хмельницькому
+            </h1>
+
+            <p class="hero-text">
+              Професійний ремонт вантажного транспорту, причепів та напівпричепів. Швидке
+              обслуговування, досвідчені майстри та якісні запчастини.
+            </p>
+
+            <a href="tel:+380677631435" class="hero-button"> Записатись на ремонт </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section" id="services">
+        <div class="container">
+          <p class="section-label">Послуги</p>
+          <h2 class="section-title">Що ми робимо</h2>
+          <p class="section-description">
+            Ми виконуємо широкий спектр ремонтних робіт та підбираємо оптимальні рішення для кожного
+            ремонту, працюючи з якісними запчастинами.
+          </p>
+
+          <div class="services-list">
+            <article class="service-card">
+              <div class="service-card__content">
+                <h3 class="service-card__title">Ремонт двигуна та трансмісії</h3>
+                <p class="service-card__text">
+                  Діагностика, ремонт та капітальний ремонт двигунів і коробок передач вантажного
+                  транспорту.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__content">
+                <h3 class="service-card__title">Ходова частина та гальмівна система</h3>
+                <p class="service-card__text">
+                  Ремонт підвіски, гальмівних механізмів та елементів ходової частини для безпечного
+                  руху.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__content">
+                <h3 class="service-card__title">Електрика та технічні роботи</h3>
+                <p class="service-card__text">
+                  Діагностика електрообладнання та виконання токарних робіт для відновлення деталей.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="brands-section">
+        <div class="container">
+          <h2 class="brands-title">Обслуговуємо всі основні марки вантажівок</h2>
+
+          <div class="swiper brands-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/brands/man.png" alt="MAN" /></div>
+              <div class="swiper-slide"><img src="./images/brands/volvo.png" alt="Volvo" /></div>
+              <div class="swiper-slide"><img src="./images/brands/daf.png" alt="DAF" /></div>
+              <div class="swiper-slide"><img src="./images/brands/scania.png" alt="Scania" /></div>
+              <div class="swiper-slide"><img src="./images/brands/inveco.png" alt="Inveco" /></div>
+              <div class="swiper-slide">
+                <img src="./images/brands/renault.jpg" alt="Renault" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
